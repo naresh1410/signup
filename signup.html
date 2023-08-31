@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SignUp</title>
+    <link rel="stylesheet" href="signup.css">
+    <link rel="shortcut icon" href="./images/Facebook-logo.png" type="image/x-icon">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Mono&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/39ec5bdae1.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <main>
+        <form action="">
+            <div id="ffname">
+                <label for="fname">First Name:</label><br>
+                <input type="text" name="fname" id="fname" placeholder="Enter the first name"><br>
+            </div>
+            <div id="llname">
+                <label for="lname">Last Name:</label><br>
+                <input type="text" name="lname" id="lname" placeholder="Enter the last name"><br>
+            </div>
+            <div id="mail">
+                <label for="email">E-mail Address:</label><br>
+                <input type="email" name="email" id="email" placeholder="e.g xyz@gmail.com"><br>
+            </div>
+            <div id="phone">
+                <label for="mobile">Mobile No.:</label><br>
+                <input type="tel" name="mobile" id="mobile" placeholder="Enter the mobile number"><br>
+            </div>
+            <div id="date">
+                <label for="dob">D.O.B:</label>
+                <input type="date" name="dob" id="dob"><br>
+            </div>
+            <div id="gender">
+                <label for="">Gender:</label>
+                <input type="radio" id="M" name="gen">Male
+                <input type="radio" id="F" name="gen">Female
+                <input type="radio" id="O" name="gen">Other
+                <br>
+            </div>
+            <div id="select">
+                <label for="status" id="statuslab" name="statuslab">Marital Status:</label>
+                <select name="status" id="status">
+                    <option value="select" hidden>Select</option>
+                    <option value="single">Single</option>
+                    <option value="married">Married</option>
+                </select>
+                <br>
+            </div>
+            <div id="passd">
+                <label for="pass">Create Password:</label>
+                <input type="password" id="pass" name="pass" placeholder="Create password"><br>
+            </div>
+            <div id="cpassd">
+                <label for="cpass">Confirm Password:</label>
+                <input type="password" id="cpass" name="cpass" placeholder="Confirm password"><br>
+            </div>
+            <div class="check">
+                <input type="checkbox" required>I have read & understand all terms & conditions
+                <br>
+            </div>
+            <div class="check">
+                <input type="checkbox" required>I accept all terms & conditions
+                <br>
+            </div>
+            <div id="bsubmit">
+            <button id="submit" name="submit">Submit</button>
+            </div>
+        </form>
+    </main>    
+</body>
+</html>

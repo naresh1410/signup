@@ -1,0 +1,62 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto Mono', monospace;
+    font-weight: bold;
+    background-image: url(./images/bg4.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+main form{
+    width: 30%;
+    background-color: rgb(15, 153, 239);
+    border:3px solid orangered;
+    border-radius: 5px;
+    padding: 10px;
+}
+#fname,#lname,#email,#mobile,#pass,#cpass,#dob{
+    width: 90%;
+    height: 20px;
+    border-radius: 5px;
+    border: 2px solid orange;
+    padding-left: 10px;
+    /* margin-bottom: 10px; */
+}
+#ffname,#llname,#mail,#phone,#passd,#cpassd,#date,.check,#gender,#select{
+    margin-bottom: 5px;
+}
+main form label{
+    margin-top: 10px;
+}
+button{
+    width: 30%;
+    height: 30px;
+    /* border: 2px solid black; */
+    border-bottom: 4px solid black;
+    border-radius: 5px;
+    margin: 10px 0px;
+    background-color: orange;
+    font-size: large;
+    font-family: 'Roboto Mono', monospace;
+    padding-bottom: 2px;
+}
+button:hover{
+    width: 34%;
+    height: 35px;
+}
+main form #bsubmit{
+    text-align: center;
+}
+main form div label{
+    margin-bottom: 5px;
+}
+option{
+    border-radius: 5px;
+    border: 2px solid orange;
+}
